@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt Forma</title>
+    <link rel="icon" href="kuca.png">
+    <style>
+        /* Dodavanje osnovnog stila */
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-top: 10px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            margin-top: 15px;
+            padding: 10px;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Kontaktirajte nas</h1>
+    <form>
+        <label for="name">Ime:</label>
+        <input type="text" id="name" name="name" placeholder="Unesite vaše ime" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Unesite vašu email adresu" required>
+
+        <label for="message">Poruka:</label>
+        <textarea id="message" name="message" rows="5" placeholder="Unesite vašu poruku" required></textarea>
+
+        <button type="button" onclick="alert('Poruka nije poslata jer server nije postavljen.')">Pošalji</button>
+    </form>
+
+    <a href="/">Back to Home</a>
+
+</body>
+
+
+</html>

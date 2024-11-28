@@ -1,0 +1,46 @@
+html {
+    font-size: 22px;
+    font-style: italic;
+}
+
+body {
+
+    background-color: cornsilk;
+    color: crimson;
+}
+.navbar {
+    overflow: hidden; /* За да се приложи височината */
+    background-color: #333;
+    text-align: right; /* Подравняване вдясно */
+    padding: 0;
+}
+
+/* Подреждане на елементите */
+.navbar li {
+    display: inline; /* Премахване на вертикалния ред */
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 14px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+h1  {
+    text-align: left;
+
+ 
+}
+
+
+
+
